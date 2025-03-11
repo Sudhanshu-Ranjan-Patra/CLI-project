@@ -4,7 +4,7 @@ const path = require("path");
 const example = process.argv[2];
 
 if(!example){
-    console.log("❌ Please provide a file name as an argument!");
+    console.log("❌ Please provide a file name as an argument!"); 
     process.exit(1); 
 }
 
@@ -29,5 +29,6 @@ fs.readFile(filePath, "utf8", (err, data)=>{
 
     });
 });
+
 
 
